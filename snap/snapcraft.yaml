@@ -21,10 +21,6 @@ apps:
     plugs: [ home ]
 
 parts:
-  furtherance:
+  planify:
     plugin: meson
     source: .
-    build-packages:
-      - cmake
-    stage-packages:
-      - libwebkitgtk-6.0-4

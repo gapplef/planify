@@ -24,3 +24,5 @@ parts:
   furtherance:
     plugin: meson
     source: .
+    stage-packages:
+      - libwebkitgtk-6.0-4

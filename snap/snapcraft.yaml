@@ -24,5 +24,7 @@ parts:
   furtherance:
     plugin: meson
     source: .
+    build-packages:
+      - cmake
     stage-packages:
       - libwebkitgtk-6.0-4

@@ -22,7 +22,7 @@ libadwaita_dep = dependency('libadwaita-1')
 # granite_dep = dependency('granite-7')
 json_dep = dependency('json-glib-1.0')
 # libecal_dep = dependency('libecal-2.0', version: '>= 3.45.1')
-libedataserver_dep = dependency('libedataserver-1.2', version: '>= 3.45.1')
+# libedataserver_dep = dependency('libedataserver-1.2', version: '>= 3.45.1')
 libical_dep = dependency('libical-glib')
 libportal_dep = [ dependency('libportal'), dependency('libportal-gtk4') ]
 m_dep = meson.get_compiler('c').find_library('m', required : false)

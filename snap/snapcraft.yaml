@@ -1,0 +1,26 @@
+name: planify
+base: core22
+version: git
+summary: Task manager with Todoist support
+description: Never worry about forgetting things again
+license: GPL-3.0
+
+grade: stable
+confinement: strict
+
+architectures:
+  - build-on: amd64
+    build-for: amd64
+#  - build-on: amd64
+#    build-for: arm64
+
+apps:
+  planify:
+    command: planify
+    extensions: [ gnome ]
+    plugs: [ home ]
+
+parts:
+  furtherance:
+    plugin: meson
+    source: .
